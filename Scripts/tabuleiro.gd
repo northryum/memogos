@@ -5,6 +5,7 @@ extends Node3D
 @export var linhas: int = 4
 @export var colunas: int = 4
 @export var espacamento: float = 2.2 # Distância entre uma carta e outra
+@export var imagens_tema: Array[Texture2D]
 
 func _ready():
 	gerar_tabuleiro()

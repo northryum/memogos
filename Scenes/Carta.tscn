@@ -8,7 +8,7 @@ size = Vector3(1, 0.1, 1.5)
 [sub_resource type="BoxMesh" id="BoxMesh_p1hlb"]
 size = Vector3(1, 0.1, 1.5)
 
-[node name="Area3D" type="Area3D" unique_id=1479424440]
+[node name="Carta" type="Area3D" unique_id=1479424440]
 script = ExtResource("1_6fjtb")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=768088925]
@@ -18,10 +18,5 @@ shape = SubResource("BoxShape3D_vrd47")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Pivot - Node3D" unique_id=1681614930]
 mesh = SubResource("BoxMesh_p1hlb")
-
-[node name="Camera3D" type="Camera3D" parent="." unique_id=1756224674]
-transform = Transform3D(1, 0, 0, 0, 0.8676353, 0.49720109, 0, -0.49720109, 0.8676353, 0, 1.8710654, 2.3271642)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D" unique_id=1623950967]
 
 [connection signal="input_event" from="." to="." method="_on_input_event"]
