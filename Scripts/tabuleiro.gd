@@ -8,9 +8,9 @@ extends Node3D
 @export var imagens_tema: Array[Texture2D]
 
 func _ready():
-	gerar_tabuleiro()
+	_gerar_tabuleiro()
 
-func gerar_tabuleiro():
+func _gerar_tabuleiro():
 	# Calculamos um offset (deslocamento) para que o grid fique centralizado no meio da tela
 	var offset_x = (colunas - 1) * espacamento / 2.0
 	var offset_z = (linhas - 1) * espacamento / 2.0

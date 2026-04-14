@@ -2,13 +2,15 @@
 
 [ext_resource type="Script" uid="uid://8esi8yo1owvs" path="res://Scripts/tabuleiro.gd" id="1_ivueb"]
 [ext_resource type="PackedScene" uid="uid://cmrhyc2soa8fe" path="res://Scenes/Carta.tscn" id="2_me2ux"]
+[ext_resource type="Texture2D" uid="uid://f2pkoy1he04" path="res://Assets/temas/icon.svg" id="3_me2ux"]
 
 [node name="Tabuleiro  - Node3D" type="Node3D" unique_id=602994253]
 script = ExtResource("1_ivueb")
 carta_cena = ExtResource("2_me2ux")
+imagens_tema = Array[Texture2D]([ExtResource("3_me2ux")])
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=835000417]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 12, 0)
+transform = Transform3D(1, 0, 0, 0, 0.57357645, 0.81915206, 0, -0.81915206, 0.57357645, 0, 6, 5.5)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D" unique_id=1853278716]
 shadow_enabled = true

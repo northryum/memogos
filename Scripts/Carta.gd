@@ -11,9 +11,9 @@ func _on_input_event(camera: Node, event: InputEvent, event_position: Vector3, n
 	# Detecta o clique com o botão esquerdo do mouse (ou toque na tela no Android)
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		if not is_animating:
-			virar_carta()
+			_virar_carta()
 
-func virar_carta():
+func _virar_carta():
 	is_animating = true
 	is_flipped = !is_flipped
 	
