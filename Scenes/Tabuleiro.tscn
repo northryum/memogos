@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b0vwolbrhixg"]
+
+[ext_resource type="Script" uid="uid://8esi8yo1owvs" path="res://Scripts/tabuleiro.gd" id="1_ivueb"]
+[ext_resource type="PackedScene" uid="uid://cmrhyc2soa8fe" path="res://Scenes/Carta.tscn" id="2_me2ux"]
+
+[node name="Tabuleiro  - Node3D" type="Node3D" unique_id=602994253]
+script = ExtResource("1_ivueb")
+carta_cena = ExtResource("2_me2ux")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=835000417]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 12, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D" unique_id=1853278716]
+shadow_enabled = true
