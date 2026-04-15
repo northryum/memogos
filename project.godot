@@ -14,10 +14,6 @@ config/name="Memogos"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://Assets/temas/icon.svg"
 
-[autoload]
-
-GameControl="*uid://rrvjehfaf32s"
-
 [display]
 
 window/stretch/mode="canvas_items"
