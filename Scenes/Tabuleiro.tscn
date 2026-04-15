@@ -1,8 +1,0 @@
-[gd_scene format=3 uid="uid://btgrlscxdpmrv"]
-
-[ext_resource type="Script" uid="uid://dfsu4q2trqesa" path="res://Scripts/Tabuleiro.gd" id="1_dj8ve"]
-[ext_resource type="PackedScene" uid="uid://cmrhyc2soa8fe" path="res://Scenes/Carta.tscn" id="2_me2ux"]
-
-[node name="Tabuleiro" type="GridContainer" unique_id=607499875]
-script = ExtResource("1_dj8ve")
-carta_cena = ExtResource("2_me2ux")
